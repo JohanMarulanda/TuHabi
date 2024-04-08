@@ -19,6 +19,7 @@ Se requiere la construcción de dos microservicios, uno de ellos para que los us
 ## Segundo Requerimiento
  Para este requerimiento se propone adicionar dos nuevas tablas, que serían la tabla Usuarios y la tabla Likes, entre las cuales habría una relación dado que un usuario puede dar "Me Gusta" a muchos inmuebles pero un "Me Gusta" específico está asociado a un solo usuario. Ahora bien, entre la tabla Property y la tabla Likes habría una relación dado que un inmueble puede recibir "Me Gusta" de muchos usuarios, pero un "Me Gusta" específico, perfenece a un solo inmueble, a nivel visual sería algo así:
 
+<pre>
 +--------------+
 |    Usuarios  |
 | user_id (PK) |
@@ -38,7 +39,7 @@ Se requiere la construcción de dos microservicios, uno de ellos para que los us
 | timestamp     |       | description            |
 +--------------+        | year                   |
                         +-----------------------+
-
+</pre>
 
 
 ## Extra Points
